@@ -8,6 +8,7 @@ import MyDefault from './components/MyDefault';
 import Teams from './components/Teams';
 import India from './components/India';
 import Pakistan from './components/Pakistan';
+import Players from './components/Players';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
             <Route path ='india' element={<India/>}></Route>
             <Route path ='pakistan' element={<Pakistan/>}></Route>             
         </Route>
+
+        <Route path=':playerid' element={<Players/>}></Route>
 
         <Route path='*' element={<MyDefault/>}> </Route>
       </Routes>

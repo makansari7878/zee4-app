@@ -21,17 +21,14 @@ function DemoUseMemo() {
             }
                 
                 return countOne % 2 == 0
-            }, [countOne]) 
-        
-        
-    
-
-    
+            }, [countOne])       
+          
+       
   return (
     <div>DemoUseMemo <br></br><br></br>
 
         <button onClick={incCounterOne}>INCREMENT one -   {countOne}</button> <br></br>
-         <span> {checkForEven() ? 'Even Number' : 'Odd Number'}</span>
+         <span> {checkForEven ? 'Even Number' : 'Odd Number'}</span>
 
         <br></br> <br></br>
 

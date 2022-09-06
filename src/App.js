@@ -19,7 +19,7 @@ function App() {
     
       <NavBar/> <br></br><br></br><br></br>
 
-      <DemoUseMemo/>
+      <DemoUseMemo/> 
       {/* <DemoUseRef/> */}
       {/* <DemoUseReducer/> */}
       <Routes>

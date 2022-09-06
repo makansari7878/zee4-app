@@ -2,7 +2,9 @@ import React,{useState, useMemo} from 'react'
 
 function DemoUseMemo() {
 
-    const [countOne, setCountOne] = useState(0)
+    // useMemo
+    const [countOne, 
+        setCountOne] = useState(0)
     const [countTwo, setCountTwo] = useState(0)
 
     const incCounterOne = () => {

@@ -18,7 +18,7 @@ function App() {
     <>
     
       <NavBar/> <br></br><br></br><br></br>
-
+// use of memo hooks
       <DemoUseMemo/> 
       {/* <DemoUseRef/> */}
       {/* <DemoUseReducer/> */}

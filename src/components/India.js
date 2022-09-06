@@ -5,7 +5,7 @@ function India() {
   return (
     <div>
       <h2> INDIAN tEAM</h2>
-      <ul>
+      <ul style={{background:"red"}}>
        <Link to='/rohit'> <li>Rohit</li> </Link>
        <Link to='/Kholi'> <li> Kholi</li></Link>
       </ul>

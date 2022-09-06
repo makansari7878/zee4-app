@@ -41,3 +41,14 @@ nav a.active{
   text-decoration: none;
   font-weight: bold;
 }
+
+ul{
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+test{
+  padding: 25px;
+  display: inline-block;
+  background-color: bisque;
+}
